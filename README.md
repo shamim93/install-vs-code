@@ -4,4 +4,5 @@ Sometimes it may hassle to install vscode on linux distro, it requires some manu
 How to Use the Script
 
 chmod +x script-vscode.sh
+
 ./script-vscode.sh
