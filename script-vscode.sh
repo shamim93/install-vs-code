@@ -34,7 +34,7 @@ vscodeFedora() {
 
 # Detect the Linux distribution
 if [ -f /etc/os-release ]; then
-    ./etc/os-release
+    . /etc/os-release
     case "$ID" in
         ubuntu|debian)
             vscodeDebian
